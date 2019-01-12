@@ -159,4 +159,3 @@ DATA = {"layers": layers}
 with open('data.json', 'w') as outfile:
     json.dump(DATA, outfile, indent=4)
 
-#print(data)
